@@ -9,6 +9,34 @@ header .container {
     align-items: center;
 }
 
+@media (max-width: 43.75rem) {
+
+    #profile {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #profile-info {
+        width: 100%;
+        margin-bottom: 2rem
+    }
+    
+    #logo {
+        transform: translateX(-5rem);
+    }
+
+    #primary-menu {
+        transform: translateX(7rem) translateY(-2.7rem);
+        margin-bottom: -3.8rem;
+    }
+    
+    #desk-isa {
+        display: flex;
+        width: 100%;
+    }
+    
+}
+
 #profile {
     display: flex;
     gap: 32px;
@@ -46,3 +74,4 @@ header .container {
     align-items: center;
     gap: 8px;
 }
+
